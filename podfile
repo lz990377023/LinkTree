@@ -1,0 +1,13 @@
+platform :ios, '8.0' 
+use_frameworks! 
+target 'LinkTree' do
+pod 'AFNetworking', '~> 3.1'
+pod 'SDWebImage', '~> 4.0'
+pod 'FMDB'
+
+
+pod 'YYModel'
+pod 'YYImage'
+pod 'YYText'
+
+end

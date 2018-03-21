@@ -1,0 +1,6 @@
+framework module Pods_LinkTree {
+  umbrella header "Pods-LinkTree-umbrella.h"
+
+  export *
+  module * { export * }
+}

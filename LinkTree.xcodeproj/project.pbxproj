@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DFD04DE860B312041FF064E /* Pods_LinkTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */; };
 		F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9B2062935900098DCC /* AppDelegate.m */; };
 		F7F5EE9F2062935900098DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9E2062935900098DCC /* ViewController.m */; };
 		F7F5EEA22062935900098DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5EEA02062935900098DCC /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8374CD63E4F8D71AC2AB095A /* Pods-LinkTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.release.xcconfig"; sourceTree = "<group>"; };
+		CCAD5C58E68A893D836EB9F7 /* Pods-LinkTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.debug.xcconfig"; sourceTree = "<group>"; };
 		F7F5EE972062935900098DCC /* LinkTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F5EE9A2062935900098DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F5EE9B2062935900098DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFD04DE860B312041FF064E /* Pods_LinkTree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570C6D07846FE54B4593178E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD5C58E68A893D836EB9F7 /* Pods-LinkTree.debug.xcconfig */,
+				8374CD63E4F8D71AC2AB095A /* Pods-LinkTree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B12495BEDA4E18EE17F8C353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7F5EE8E2062935900098DCC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				F7F5EEB22062935900098DCC /* LinkTreeTests */,
 				F7F5EEBD2062935900098DCC /* LinkTreeUITests */,
 				F7F5EE982062935900098DCC /* Products */,
+				570C6D07846FE54B4593178E /* Pods */,
+				B12495BEDA4E18EE17F8C353 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7F5EEC32062935900098DCC /* Build configuration list for PBXNativeTarget "LinkTree" */;
 			buildPhases = (
+				27D76E865D282421EF02FE01 /* [CP] Check Pods Manifest.lock */,
 				F7F5EE932062935900098DCC /* Sources */,
 				F7F5EE942062935900098DCC /* Frameworks */,
 				F7F5EE952062935900098DCC /* Resources */,
+				9F146C301CD1E6323A30F284 /* [CP] Embed Pods Frameworks */,
+				206B26C17744D266CD30118A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206B26C17744D266CD30118A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27D76E865D282421EF02FE01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkTree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F146C301CD1E6323A30F284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7F5EE932062935900098DCC /* Sources */ = {
@@ -428,6 +519,7 @@
 		};
 		F7F5EEC42062935900098DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAD5C58E68A893D836EB9F7 /* Pods-LinkTree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +534,7 @@
 		};
 		F7F5EEC52062935900098DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8374CD63E4F8D71AC2AB095A /* Pods-LinkTree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
