@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7DFD04DE860B312041FF064E /* Pods_LinkTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */; };
+		F71DCD7820749D3B00FC7371 /* NSMutableData+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DCD7720749D3B00FC7371 /* NSMutableData+LGExtend.m */; };
+		F71DCD7B20749DE700FC7371 /* NSAttributedString+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DCD7A20749DE700FC7371 /* NSAttributedString+LGExtend.m */; };
+		F790037A20747C5F0024DC5B /* NSDictionary+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790037620747C5E0024DC5B /* NSDictionary+LGExtend.m */; };
+		F790037B20747C5F0024DC5B /* NSMutableDictionary+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790037920747C5F0024DC5B /* NSMutableDictionary+LGExtend.m */; };
+		F790037E20747C6D0024DC5B /* NSData+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790037C20747C6D0024DC5B /* NSData+LGExtend.m */; };
+		F790038120747C7B0024DC5B /* NSString+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790037F20747C7B0024DC5B /* NSString+LGExtend.m */; };
+		F790038620747CC50024DC5B /* NSMutableString+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790038520747CC50024DC5B /* NSMutableString+LGExtend.m */; };
+		F790038920747CDE0024DC5B /* NSMutableAttributedString+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790038820747CDE0024DC5B /* NSMutableAttributedString+LGExtend.m */; };
+		F790038C20747CEA0024DC5B /* NSArray+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790038A20747CEA0024DC5B /* NSArray+LGExtend.m */; };
+		F790038F20747CF30024DC5B /* NSMutableArray+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790038E20747CF20024DC5B /* NSMutableArray+LGExtend.m */; };
+		F790039220747CFF0024DC5B /* NSObject+LGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = F790039020747CFF0024DC5B /* NSObject+LGExtend.m */; };
 		F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9B2062935900098DCC /* AppDelegate.m */; };
 		F7F5EE9F2062935900098DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9E2062935900098DCC /* ViewController.m */; };
 		F7F5EEA22062935900098DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5EEA02062935900098DCC /* Main.storyboard */; };
@@ -39,6 +50,28 @@
 		6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8374CD63E4F8D71AC2AB095A /* Pods-LinkTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.release.xcconfig"; sourceTree = "<group>"; };
 		CCAD5C58E68A893D836EB9F7 /* Pods-LinkTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.debug.xcconfig"; sourceTree = "<group>"; };
+		F71DCD7620749D3B00FC7371 /* NSMutableData+LGExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+LGExtend.h"; sourceTree = "<group>"; };
+		F71DCD7720749D3B00FC7371 /* NSMutableData+LGExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+LGExtend.m"; sourceTree = "<group>"; };
+		F71DCD7920749DE700FC7371 /* NSAttributedString+LGExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LGExtend.h"; sourceTree = "<group>"; };
+		F71DCD7A20749DE700FC7371 /* NSAttributedString+LGExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LGExtend.m"; sourceTree = "<group>"; };
+		F790037620747C5E0024DC5B /* NSDictionary+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LGExtend.m"; sourceTree = "<group>"; };
+		F790037720747C5F0024DC5B /* NSMutableDictionary+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LGExtend.h"; sourceTree = "<group>"; };
+		F790037820747C5F0024DC5B /* NSDictionary+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LGExtend.h"; sourceTree = "<group>"; };
+		F790037920747C5F0024DC5B /* NSMutableDictionary+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LGExtend.m"; sourceTree = "<group>"; };
+		F790037C20747C6D0024DC5B /* NSData+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LGExtend.m"; sourceTree = "<group>"; };
+		F790037D20747C6D0024DC5B /* NSData+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LGExtend.h"; sourceTree = "<group>"; };
+		F790037F20747C7B0024DC5B /* NSString+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGExtend.m"; sourceTree = "<group>"; };
+		F790038020747C7B0024DC5B /* NSString+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGExtend.h"; sourceTree = "<group>"; };
+		F790038420747CC50024DC5B /* NSMutableString+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LGExtend.h"; sourceTree = "<group>"; };
+		F790038520747CC50024DC5B /* NSMutableString+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+LGExtend.m"; sourceTree = "<group>"; };
+		F790038720747CDE0024DC5B /* NSMutableAttributedString+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LGExtend.h"; sourceTree = "<group>"; };
+		F790038820747CDE0024DC5B /* NSMutableAttributedString+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LGExtend.m"; sourceTree = "<group>"; };
+		F790038A20747CEA0024DC5B /* NSArray+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LGExtend.m"; sourceTree = "<group>"; };
+		F790038B20747CEA0024DC5B /* NSArray+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LGExtend.h"; sourceTree = "<group>"; };
+		F790038D20747CF20024DC5B /* NSMutableArray+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LGExtend.h"; sourceTree = "<group>"; };
+		F790038E20747CF20024DC5B /* NSMutableArray+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LGExtend.m"; sourceTree = "<group>"; };
+		F790039020747CFF0024DC5B /* NSObject+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGExtend.m"; sourceTree = "<group>"; };
+		F790039120747CFF0024DC5B /* NSObject+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGExtend.h"; sourceTree = "<group>"; };
 		F7F5EE972062935900098DCC /* LinkTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F5EE9A2062935900098DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F5EE9B2062935900098DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +133,89 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F790037020747C300024DC5B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F790037120747C300024DC5B /* NSDictionary */,
+				F790037220747C300024DC5B /* NSData */,
+				F790037320747C300024DC5B /* NSString */,
+				F790037420747C300024DC5B /* NSArray */,
+				F790037520747C300024DC5B /* NSObject */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F790037120747C300024DC5B /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F790037820747C5F0024DC5B /* NSDictionary+LGExtend.h */,
+				F790037620747C5E0024DC5B /* NSDictionary+LGExtend.m */,
+				F790037720747C5F0024DC5B /* NSMutableDictionary+LGExtend.h */,
+				F790037920747C5F0024DC5B /* NSMutableDictionary+LGExtend.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		F790037220747C300024DC5B /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				F790037D20747C6D0024DC5B /* NSData+LGExtend.h */,
+				F790037C20747C6D0024DC5B /* NSData+LGExtend.m */,
+				F71DCD7620749D3B00FC7371 /* NSMutableData+LGExtend.h */,
+				F71DCD7720749D3B00FC7371 /* NSMutableData+LGExtend.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		F790037320747C300024DC5B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				F790038020747C7B0024DC5B /* NSString+LGExtend.h */,
+				F790037F20747C7B0024DC5B /* NSString+LGExtend.m */,
+				F790038420747CC50024DC5B /* NSMutableString+LGExtend.h */,
+				F790038520747CC50024DC5B /* NSMutableString+LGExtend.m */,
+				F71DCD7920749DE700FC7371 /* NSAttributedString+LGExtend.h */,
+				F71DCD7A20749DE700FC7371 /* NSAttributedString+LGExtend.m */,
+				F790038720747CDE0024DC5B /* NSMutableAttributedString+LGExtend.h */,
+				F790038820747CDE0024DC5B /* NSMutableAttributedString+LGExtend.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		F790037420747C300024DC5B /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				F790038B20747CEA0024DC5B /* NSArray+LGExtend.h */,
+				F790038A20747CEA0024DC5B /* NSArray+LGExtend.m */,
+				F790038D20747CF20024DC5B /* NSMutableArray+LGExtend.h */,
+				F790038E20747CF20024DC5B /* NSMutableArray+LGExtend.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		F790037520747C300024DC5B /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				F790039120747CFF0024DC5B /* NSObject+LGExtend.h */,
+				F790039020747CFF0024DC5B /* NSObject+LGExtend.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		F790039320747D350024DC5B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		F790039520747E9B0024DC5B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		F7F5EE8E2062935900098DCC = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +241,9 @@
 		F7F5EE992062935900098DCC /* LinkTree */ = {
 			isa = PBXGroup;
 			children = (
+				F790039520747E9B0024DC5B /* UIKit */,
+				F790039320747D350024DC5B /* Macro */,
+				F790037020747C300024DC5B /* Foundation */,
 				F7F5EE9A2062935900098DCC /* AppDelegate.h */,
 				F7F5EE9B2062935900098DCC /* AppDelegate.m */,
 				F7F5EE9D2062935900098DCC /* ViewController.h */,
@@ -356,9 +475,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F790039220747CFF0024DC5B /* NSObject+LGExtend.m in Sources */,
+				F790038F20747CF30024DC5B /* NSMutableArray+LGExtend.m in Sources */,
 				F7F5EE9F2062935900098DCC /* ViewController.m in Sources */,
+				F790038C20747CEA0024DC5B /* NSArray+LGExtend.m in Sources */,
 				F7F5EEAA2062935900098DCC /* main.m in Sources */,
+				F790038920747CDE0024DC5B /* NSMutableAttributedString+LGExtend.m in Sources */,
+				F71DCD7B20749DE700FC7371 /* NSAttributedString+LGExtend.m in Sources */,
+				F790037B20747C5F0024DC5B /* NSMutableDictionary+LGExtend.m in Sources */,
+				F71DCD7820749D3B00FC7371 /* NSMutableData+LGExtend.m in Sources */,
 				F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */,
+				F790037A20747C5F0024DC5B /* NSDictionary+LGExtend.m in Sources */,
+				F790038620747CC50024DC5B /* NSMutableString+LGExtend.m in Sources */,
+				F790038120747C7B0024DC5B /* NSString+LGExtend.m in Sources */,
+				F790037E20747C6D0024DC5B /* NSData+LGExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
