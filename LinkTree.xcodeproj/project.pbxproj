@@ -54,6 +54,8 @@
 		F71DCD7720749D3B00FC7371 /* NSMutableData+LGExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+LGExtend.m"; sourceTree = "<group>"; };
 		F71DCD7920749DE700FC7371 /* NSAttributedString+LGExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LGExtend.h"; sourceTree = "<group>"; };
 		F71DCD7A20749DE700FC7371 /* NSAttributedString+LGExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LGExtend.m"; sourceTree = "<group>"; };
+		F76089C1207A2D32007CE474 /* LGUIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGUIMacro.h; sourceTree = "<group>"; };
+		F76089C2207A2ED1007CE474 /* LGMainMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMainMacro.h; sourceTree = "<group>"; };
 		F790037620747C5E0024DC5B /* NSDictionary+LGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LGExtend.m"; sourceTree = "<group>"; };
 		F790037720747C5F0024DC5B /* NSMutableDictionary+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LGExtend.h"; sourceTree = "<group>"; };
 		F790037820747C5F0024DC5B /* NSDictionary+LGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LGExtend.h"; sourceTree = "<group>"; };
@@ -205,6 +207,8 @@
 		F790039320747D350024DC5B /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				F76089C2207A2ED1007CE474 /* LGMainMacro.h */,
+				F76089C1207A2D32007CE474 /* LGUIMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
