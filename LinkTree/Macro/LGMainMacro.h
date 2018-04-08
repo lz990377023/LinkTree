@@ -9,6 +9,7 @@
 #ifndef LGMainMacro_h
 #define LGMainMacro_h
 
+//弱引用
 #ifndef weakify
     #if DEBUG
         #if __has_feature(objc_arc)
@@ -40,5 +41,20 @@
         #endif
     #endif
 #endif
+
+// 判断当前是否debug编译模式
+#ifdef DEBUG
+#define IS_DEBUG YES
+#else
+#define IS_DEBUG NO
+#endif
+
+// 操作系统版本号，只获取第二级的版本号，例如 10.3.1 只会得到 10.3
+#define IOS_VERSION ([[[UIDevice currentDevice] systemVersion] doubleValue])
+
+
+
+
+
 
 #endif /* LGMainMacro_h */
