@@ -1,5 +1,5 @@
 //
-//  NSDictionary+LGExtend.h
+//  NSMutableAttributedString+LTExtend.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (LGExtend)
+@interface NSMutableAttributedString (LTExtend)
 
-//判断是否为空字典
-- (BOOL)isNullDictionary;
 @end

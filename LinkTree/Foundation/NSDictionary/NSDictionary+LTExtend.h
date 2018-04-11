@@ -1,5 +1,5 @@
 //
-//  NSArray+LGExtend.h
+//  NSDictionary+LTExtend.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (LGExtend)
+@interface NSDictionary (LTExtend)
 
-//判断是否为空数组
-- (BOOL)isNullArray;
+//判断是否为空字典
+- (BOOL)isNullDictionary;
 @end

@@ -1,28 +1,30 @@
 //
-//  NSString+LGExtend.m
+//  NSDictionary+LTExtend.m
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#import "NSString+LGExtend.h"
+#import "NSDictionary+LTExtend.h"
 
-@implementation NSString (LGExtend)
-- (BOOL)isNullString{
+@implementation NSDictionary (LTExtend)
+- (BOOL)isNullDictionary{
     if (self == nil || self == Nil || self == NULL) {
         return YES;
     }
     if ([self isKindOfClass:[NSNull class]]) {
         return YES;
     }
-    if (self == [NSString alloc]) {
+    if (self == [NSDictionary alloc])
+    {
         return YES;
     }
-    if (self.length == 0) {
+    if (self.count == 0)
+    {
         return YES;
     }
-    if (![self isKindOfClass:[NSString class]]) {
+    if (![self isKindOfClass:[NSDictionary class]]) {
         return YES;
     }
     return NO;

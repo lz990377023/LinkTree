@@ -1,13 +1,13 @@
 //
-//  NSMutableString+LGExtend.m
+//  NSData+LTExtend.m
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#import "NSMutableString+LGExtend.h"
+#import "NSData+LTExtend.h"
 
-@implementation NSMutableString (LGExtend)
+@implementation NSData (LTExtend)
 
 @end

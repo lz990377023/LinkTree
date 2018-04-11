@@ -1,5 +1,5 @@
 //
-//  NSMutableString+LGExtend.h
+//  NSData+LTExtend.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableString (LGExtend)
+@interface NSData (LTExtend)
 
 @end

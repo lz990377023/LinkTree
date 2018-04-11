@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LGUIMacro.h"
+#import "LTUIMacro.h"
 @interface AppDelegate ()
 
 @end

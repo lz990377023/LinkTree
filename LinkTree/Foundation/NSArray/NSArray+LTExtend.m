@@ -1,14 +1,14 @@
 //
-//  NSArray+LGExtend.m
+//  NSArray+LTExtend.m
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#import "NSArray+LGExtend.h"
+#import "NSArray+LTExtend.h"
 
-@implementation NSArray (LGExtend)
+@implementation NSArray (LTExtend)
 - (BOOL)isNullArray{
     if (self == nil || self == Nil || self == NULL) {
         return YES;

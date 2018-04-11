@@ -1,14 +1,14 @@
 //
-//  NSObject+LGExtend.m
+//  NSObject+LTExtend.m
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#import "NSObject+LGExtend.h"
+#import "NSObject+LTExtend.h"
 
-@implementation NSObject (LGExtend)
+@implementation NSObject (LTExtend)
 
 - (BOOL)isNullObject{
     if (self == nil || self == NULL) {return YES;}

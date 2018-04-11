@@ -1,5 +1,5 @@
 //
-//  NSMutableArray+LGExtend.h
+//  NSMutableArray+LTExtend.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableArray (LGExtend)
+@interface NSMutableArray (LTExtend)
 
 @end

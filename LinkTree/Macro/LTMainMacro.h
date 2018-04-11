@@ -1,13 +1,13 @@
 //
-//  LGMainMacro.h
+//  LTMainMacro.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/8.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#ifndef LGMainMacro_h
-#define LGMainMacro_h
+#ifndef LTMainMacro_h
+#define LTMainMacro_h
 
 //弱引用
 #ifndef weakify
@@ -57,4 +57,4 @@
 
 
 
-#endif /* LGMainMacro_h */
+#endif /* LTMainMacro_h */
