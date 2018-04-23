@@ -1,5 +1,5 @@
 //
-//  NSObject+LTExtend.h
+//  NSObject+LTExtension.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (LTExtend)
+@interface NSObject (LTExtension)
 /**
  * 判断object是否为空
  */

@@ -1,32 +1,32 @@
 //
-//  NSArray+LTExtend.m
+//  NSString+LTExtension.m
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#import "NSArray+LTExtend.h"
+#import "NSString+LTExtension.h"
 
-@implementation NSArray (LTExtend)
-- (BOOL)isNullArray{
+@implementation NSString (LTExtension)
+- (BOOL)isNullString{
     if (self == nil || self == Nil || self == NULL) {
         return YES;
     }
     if ([self isKindOfClass:[NSNull class]]) {
         return YES;
     }
-    if (self == [NSArray alloc])
-    {
+    if (self == [NSString alloc]) {
         return YES;
     }
-    if (self.count == 0)
-    {
+    if (self.length == 0) {
         return YES;
     }
-    if (![self isKindOfClass:[NSArray class]]) {
+    if (![self isKindOfClass:[NSString class]]) {
         return YES;
     }
     return NO;
 }
+
+
 @end

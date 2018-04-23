@@ -1,14 +1,14 @@
 //
-//  NSObject+LTExtend.m
+//  NSObject+LTExtension.m
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
 //  Copyright © 2018年 lizhan. All rights reserved.
 //
 
-#import "NSObject+LTExtend.h"
+#import "NSObject+LTExtension.h"
 
-@implementation NSObject (LTExtend)
+@implementation NSObject (LTExtension)
 
 - (BOOL)isNullObject{
     if (self == nil || self == NULL) {return YES;}
@@ -21,6 +21,10 @@
 }
 
 + (NSString *)className{
+    return NSStringFromClass([self class]);
+}
+
+- (NSString *)className{
     return NSStringFromClass([self class]);
 }
 @end

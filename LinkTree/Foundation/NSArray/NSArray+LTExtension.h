@@ -1,5 +1,5 @@
 //
-//  NSMutableArray+LTExtend.h
+//  NSArray+LTExtension.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableArray (LTExtend)
+@interface NSArray (LTExtension)
 
+//判断是否为空数组
+- (BOOL)isNullArray;
 @end

@@ -1,5 +1,5 @@
 //
-//  NSString+LTExtend.h
+//  NSString+LTExtension.h
 //  LinkTree
 //
 //  Created by lizhan on 2018/4/3.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <UIKit/UIKit.h>
-@interface NSString (LTExtend)
+@interface NSString (LTExtension)
 
 //判断是否为空字符串
 - (BOOL)isNullString;

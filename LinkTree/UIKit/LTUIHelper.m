@@ -23,68 +23,72 @@
     return [self shareInstance];
 }
 
++ (CGFloat)lt_pixelOne{
+    return 1 / [[UIScreen mainScreen] scale];
+}
+
 static NSInteger is58InchScreen = -1;
-+ (BOOL)is58InchScreen {
++ (BOOL)lt_is58InchScreen {
     if (is58InchScreen < 0) {
-        is58InchScreen = (LT_DEVICE_WIDTH == self.screenSizeFor58Inch.width && LT_DEVICE_WIDTH == self.screenSizeFor58Inch.height) ? 1 : 0;
+        is58InchScreen = (LT_DEVICE_WIDTH == self.lt_screenSizeFor58Inch.width && LT_DEVICE_WIDTH == self.lt_screenSizeFor58Inch.height) ? 1 : 0;
     }
     return is58InchScreen > 0;
 }
 
 static NSInteger is55InchScreen = -1;
-+ (BOOL)is55InchScreen {
++ (BOOL)lt_is55InchScreen {
     if (is55InchScreen < 0) {
-        is55InchScreen = (LT_DEVICE_WIDTH == self.screenSizeFor55Inch.width && LT_DEVICE_WIDTH == self.screenSizeFor55Inch.height) ? 1 : 0;
+        is55InchScreen = (LT_DEVICE_WIDTH == self.lt_screenSizeFor55Inch.width && LT_DEVICE_WIDTH == self.lt_screenSizeFor55Inch.height) ? 1 : 0;
     }
     return is55InchScreen > 0;
 }
 
 static NSInteger is47InchScreen = -1;
-+ (BOOL)is47InchScreen {
++ (BOOL)lt_is47InchScreen {
     if (is47InchScreen < 0) {
-        is47InchScreen = (LT_DEVICE_WIDTH == self.screenSizeFor47Inch.width && LT_DEVICE_WIDTH == self.screenSizeFor47Inch.height) ? 1 : 0;
+        is47InchScreen = (LT_DEVICE_WIDTH == self.lt_screenSizeFor47Inch.width && LT_DEVICE_WIDTH == self.lt_screenSizeFor47Inch.height) ? 1 : 0;
     }
     return is47InchScreen > 0;
 }
 
 static NSInteger is40InchScreen = -1;
-+ (BOOL)is40InchScreen {
++ (BOOL)lt_is40InchScreen {
     if (is40InchScreen < 0) {
-        is40InchScreen = (LT_DEVICE_WIDTH == self.screenSizeFor40Inch.width && LT_DEVICE_WIDTH == self.screenSizeFor40Inch.height) ? 1 : 0;
+        is40InchScreen = (LT_DEVICE_WIDTH == self.lt_screenSizeFor40Inch.width && LT_DEVICE_WIDTH == self.lt_screenSizeFor40Inch.height) ? 1 : 0;
     }
     return is40InchScreen > 0;
 }
 
 static NSInteger is35InchScreen = -1;
-+ (BOOL)is35InchScreen {
++ (BOOL)lt_is35InchScreen {
     if (is35InchScreen < 0) {
-        is35InchScreen = (LT_DEVICE_WIDTH == self.screenSizeFor35Inch.width && LT_DEVICE_WIDTH == self.screenSizeFor35Inch.height) ? 1 : 0;
+        is35InchScreen = (LT_DEVICE_WIDTH == self.lt_screenSizeFor35Inch.width && LT_DEVICE_WIDTH == self.lt_screenSizeFor35Inch.height) ? 1 : 0;
     }
     return is35InchScreen > 0;
 }
 
-+ (CGSize)screenSizeFor58Inch {
++ (CGSize)lt_screenSizeFor58Inch {
     return CGSizeMake(375, 812);
 }
 
-+ (CGSize)screenSizeFor55Inch {
++ (CGSize)lt_screenSizeFor55Inch {
     return CGSizeMake(414, 736);
 }
 
-+ (CGSize)screenSizeFor47Inch {
++ (CGSize)lt_screenSizeFor47Inch {
     return CGSizeMake(375, 667);
 }
 
-+ (CGSize)screenSizeFor40Inch {
++ (CGSize)lt_screenSizeFor40Inch {
     return CGSizeMake(320, 568);
 }
 
-+ (CGSize)screenSizeFor35Inch {
++ (CGSize)lt_screenSizeFor35Inch {
     return CGSizeMake(320, 480);
 }
 
-+ (UIEdgeInsets)safeAreaInsetsForIPhoneX {
-    if (![self is58InchScreen]) {
++ (UIEdgeInsets)lt_safeAreaInsetsForIPhoneX {
+    if (![self lt_is58InchScreen]) {
         return UIEdgeInsetsZero;
     }
     
@@ -107,7 +111,7 @@ static NSInteger is35InchScreen = -1;
     }
 }
 
-+ (void)redirectAudioRouteWithSpeaker:(BOOL)speaker temporary:(BOOL)temporary {
++ (void)lt_redirectAudioRouteWithSpeaker:(BOOL)speaker temporary:(BOOL)temporary {
     if (![[AVAudioSession sharedInstance].category isEqualToString:AVAudioSessionCategoryPlayAndRecord]) {
         return;
     }
