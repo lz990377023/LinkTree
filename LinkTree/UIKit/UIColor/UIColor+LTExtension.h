@@ -87,7 +87,7 @@
 + (UIColor *)lt_gradientColorFromColor:(UIColor *)fromColor toColor:(UIColor *)toColor withSize:(CGSize)size;
 
 /**
- *  将颜色A渐变
+ *  颜色渐变
  *  @param fromColor 起始颜色
  *  @param toColor 目标颜色
  *  @param progress 变化程度，取值范围0.0f~1.0f
