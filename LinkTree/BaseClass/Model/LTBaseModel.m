@@ -1,0 +1,13 @@
+//
+//  LTBaseModel.m
+//  LinkTree
+//
+//  Created by 李沾 on 2018/4/30.
+//  Copyright © 2018年 lizhan. All rights reserved.
+//
+
+#import "LTBaseModel.h"
+
+@implementation LTBaseModel
+
+@end

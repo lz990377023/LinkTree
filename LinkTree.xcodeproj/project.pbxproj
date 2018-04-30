@@ -27,6 +27,16 @@
 		F72DFD8B20961B8500E2FA3A /* LTMultiRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD7820961B8500E2FA3A /* LTMultiRequestClient.m */; };
 		F72DFD8C20961B8500E2FA3A /* LTDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD7920961B8500E2FA3A /* LTDotNetAPIClient.m */; };
 		F72DFD8D20961B8500E2FA3A /* LTRequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD7A20961B8500E2FA3A /* LTRequestError.m */; };
+		F72DFD942096AA5800E2FA3A /* LTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD932096AA5800E2FA3A /* LTBaseModel.m */; };
+		F72DFD972096AA8800E2FA3A /* LTBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD962096AA8800E2FA3A /* LTBaseButton.m */; };
+		F72DFD9A2096AAA300E2FA3A /* LTBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD992096AAA300E2FA3A /* LTBaseLabel.m */; };
+		F72DFD9D2096AAC600E2FA3A /* LTBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD9C2096AAC600E2FA3A /* LTBaseTableView.m */; };
+		F72DFDA02096AAE100E2FA3A /* LTBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD9F2096AAE100E2FA3A /* LTBaseCollectionView.m */; };
+		F72DFDA32096AAF500E2FA3A /* LTBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDA22096AAF500E2FA3A /* LTBaseScrollView.m */; };
+		F72DFDA62096AB4A00E2FA3A /* LTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDA52096AB4A00E2FA3A /* LTBaseViewController.m */; };
+		F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDA82096AB6F00E2FA3A /* LTBaseNavigationController.m */; };
+		F72DFDAC2096AB9200E2FA3A /* LTBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAB2096AB9200E2FA3A /* LTBaseTabBarController.m */; };
+		F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */; };
 		F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9B2062935900098DCC /* AppDelegate.m */; };
 		F7F5EE9F2062935900098DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9E2062935900098DCC /* ViewController.m */; };
 		F7F5EEA22062935900098DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5EEA02062935900098DCC /* Main.storyboard */; };
@@ -99,6 +109,27 @@
 		F72DFD7820961B8500E2FA3A /* LTMultiRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMultiRequestClient.m; sourceTree = "<group>"; };
 		F72DFD7920961B8500E2FA3A /* LTDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTDotNetAPIClient.m; sourceTree = "<group>"; };
 		F72DFD7A20961B8500E2FA3A /* LTRequestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTRequestError.m; sourceTree = "<group>"; };
+		F72DFD922096AA5800E2FA3A /* LTBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseModel.h; sourceTree = "<group>"; };
+		F72DFD932096AA5800E2FA3A /* LTBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseModel.m; sourceTree = "<group>"; };
+		F72DFD952096AA8800E2FA3A /* LTBaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseButton.h; sourceTree = "<group>"; };
+		F72DFD962096AA8800E2FA3A /* LTBaseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseButton.m; sourceTree = "<group>"; };
+		F72DFD982096AAA300E2FA3A /* LTBaseLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseLabel.h; sourceTree = "<group>"; };
+		F72DFD992096AAA300E2FA3A /* LTBaseLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseLabel.m; sourceTree = "<group>"; };
+		F72DFD9B2096AAC600E2FA3A /* LTBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseTableView.h; sourceTree = "<group>"; };
+		F72DFD9C2096AAC600E2FA3A /* LTBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseTableView.m; sourceTree = "<group>"; };
+		F72DFD9E2096AAE100E2FA3A /* LTBaseCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseCollectionView.h; sourceTree = "<group>"; };
+		F72DFD9F2096AAE100E2FA3A /* LTBaseCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseCollectionView.m; sourceTree = "<group>"; };
+		F72DFDA12096AAF500E2FA3A /* LTBaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseScrollView.h; sourceTree = "<group>"; };
+		F72DFDA22096AAF500E2FA3A /* LTBaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseScrollView.m; sourceTree = "<group>"; };
+		F72DFDA42096AB4A00E2FA3A /* LTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseViewController.h; sourceTree = "<group>"; };
+		F72DFDA52096AB4A00E2FA3A /* LTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseViewController.m; sourceTree = "<group>"; };
+		F72DFDA72096AB6F00E2FA3A /* LTBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseNavigationController.h; sourceTree = "<group>"; };
+		F72DFDA82096AB6F00E2FA3A /* LTBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseNavigationController.m; sourceTree = "<group>"; };
+		F72DFDAA2096AB9200E2FA3A /* LTBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseTabBarController.h; sourceTree = "<group>"; };
+		F72DFDAB2096AB9200E2FA3A /* LTBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseTabBarController.m; sourceTree = "<group>"; };
+		F72DFDAD2096ACB400E2FA3A /* LTBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseView.h; sourceTree = "<group>"; };
+		F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseView.m; sourceTree = "<group>"; };
+		F72DFDB32096B79000E2FA3A /* LinkTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkTree.h; sourceTree = "<group>"; };
 		F7F5EE972062935900098DCC /* LinkTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F5EE9A2062935900098DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F5EE9B2062935900098DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -301,6 +332,72 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		F72DFD8E2096A9A300E2FA3A /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				F72DFD902096AA2100E2FA3A /* Model */,
+				F72DFD912096AA2100E2FA3A /* View */,
+				F72DFD8F2096AA2100E2FA3A /* ViewController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		F72DFD8F2096AA2100E2FA3A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F72DFDA42096AB4A00E2FA3A /* LTBaseViewController.h */,
+				F72DFDA52096AB4A00E2FA3A /* LTBaseViewController.m */,
+				F72DFDA72096AB6F00E2FA3A /* LTBaseNavigationController.h */,
+				F72DFDA82096AB6F00E2FA3A /* LTBaseNavigationController.m */,
+				F72DFDAA2096AB9200E2FA3A /* LTBaseTabBarController.h */,
+				F72DFDAB2096AB9200E2FA3A /* LTBaseTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F72DFD902096AA2100E2FA3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F72DFD922096AA5800E2FA3A /* LTBaseModel.h */,
+				F72DFD932096AA5800E2FA3A /* LTBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F72DFD912096AA2100E2FA3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F72DFDAD2096ACB400E2FA3A /* LTBaseView.h */,
+				F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */,
+				F72DFD952096AA8800E2FA3A /* LTBaseButton.h */,
+				F72DFD962096AA8800E2FA3A /* LTBaseButton.m */,
+				F72DFD982096AAA300E2FA3A /* LTBaseLabel.h */,
+				F72DFD992096AAA300E2FA3A /* LTBaseLabel.m */,
+				F72DFD9B2096AAC600E2FA3A /* LTBaseTableView.h */,
+				F72DFD9C2096AAC600E2FA3A /* LTBaseTableView.m */,
+				F72DFD9E2096AAE100E2FA3A /* LTBaseCollectionView.h */,
+				F72DFD9F2096AAE100E2FA3A /* LTBaseCollectionView.m */,
+				F72DFDA12096AAF500E2FA3A /* LTBaseScrollView.h */,
+				F72DFDA22096AAF500E2FA3A /* LTBaseScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F72DFDB12096B53400E2FA3A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F72DFDB22096B54E00E2FA3A /* View */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		F72DFDB22096B54E00E2FA3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F7F5EE8E2062935900098DCC = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +423,8 @@
 		F7F5EE992062935900098DCC /* LinkTree */ = {
 			isa = PBXGroup;
 			children = (
+				F72DFDB12096B53400E2FA3A /* Custom */,
+				F72DFD8E2096A9A300E2FA3A /* BaseClass */,
 				F72DFD4520961B8500E2FA3A /* Foundation */,
 				F72DFD6520961B8500E2FA3A /* Macro */,
 				F72DFD6E20961B8500E2FA3A /* Toolkit */,
@@ -339,6 +438,7 @@
 				F7F5EEA52062935900098DCC /* LaunchScreen.storyboard */,
 				F7F5EEA82062935900098DCC /* Info.plist */,
 				F7F5EEA92062935900098DCC /* main.m */,
+				F72DFDB32096B79000E2FA3A /* LinkTree.h */,
 			);
 			path = LinkTree;
 			sourceTree = "<group>";
@@ -561,18 +661,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72DFD972096AA8800E2FA3A /* LTBaseButton.m in Sources */,
 				F72DFD8620961B8500E2FA3A /* NSDate+LTExtension.m in Sources */,
+				F72DFD9D2096AAC600E2FA3A /* LTBaseTableView.m in Sources */,
 				F72DFD8420961B8500E2FA3A /* NSMutableArray+LTExtension.m in Sources */,
 				F72DFD7B20961B8500E2FA3A /* NSDictionary+LTExtension.m in Sources */,
 				F72DFD7F20961B8500E2FA3A /* NSString+LTExtension.m in Sources */,
 				F72DFD8120961B8500E2FA3A /* NSAttributedString+LTExtension.m in Sources */,
 				F72DFD8720961B8500E2FA3A /* UIColor+LTExtension.m in Sources */,
+				F72DFDAC2096AB9200E2FA3A /* LTBaseTabBarController.m in Sources */,
 				F72DFD8D20961B8500E2FA3A /* LTRequestError.m in Sources */,
+				F72DFDA62096AB4A00E2FA3A /* LTBaseViewController.m in Sources */,
 				F72DFD7C20961B8500E2FA3A /* NSMutableDictionary+LTExtension.m in Sources */,
 				F72DFD8320961B8500E2FA3A /* NSArray+LTExtension.m in Sources */,
 				F72DFD8B20961B8500E2FA3A /* LTMultiRequestClient.m in Sources */,
 				F72DFD8820961B8500E2FA3A /* LTUIHelper.m in Sources */,
+				F72DFD9A2096AAA300E2FA3A /* LTBaseLabel.m in Sources */,
+				F72DFDA32096AAF500E2FA3A /* LTBaseScrollView.m in Sources */,
 				F72DFD8220961B8500E2FA3A /* NSMutableString+LTExtension.m in Sources */,
+				F72DFD942096AA5800E2FA3A /* LTBaseModel.m in Sources */,
+				F72DFDA02096AAE100E2FA3A /* LTBaseCollectionView.m in Sources */,
 				F7F5EE9F2062935900098DCC /* ViewController.m in Sources */,
 				F72DFD8020961B8500E2FA3A /* NSMutableAttributedString+LTExtension.m in Sources */,
 				F72DFD8C20961B8500E2FA3A /* LTDotNetAPIClient.m in Sources */,
@@ -582,6 +690,8 @@
 				F72DFD8A20961B8500E2FA3A /* LTNetworkClient.m in Sources */,
 				F72DFD7E20961B8500E2FA3A /* NSMutableData+LTExtension.m in Sources */,
 				F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */,
+				F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */,
+				F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */,
 				F72DFD8520961B8500E2FA3A /* NSObject+LTExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
