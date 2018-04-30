@@ -52,6 +52,15 @@
 // 操作系统版本号，只获取第二级的版本号，例如 10.3.1 只会得到 10.3
 #define IOS_VERSION ([[[UIDevice currentDevice] systemVersion] doubleValue])
 
+#pragma mark --------LocalString
+
+// 语言种类
+#define LT_APP_LANGUAGE_FOR_CHINESE       @"Chinese"       //中文
+#define LT_APP_LANGUAGE_FOR_CHINESE_TRAD      @"Chinese_Traditional"       //繁体中文
+#define LT_APP_LANGUAGE_FOR_ENGLISH     @"English"      //英语
+
+// 如果要通过宏直接设置语言 则将APP_LANGUAGE_XXXXX的宏替代PLIST_DICT_GET_OBJECT(LANGUAGE_CORE_KEY)
+#define LTLocalForKey(key) [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:LT_APP_LANGUAGE_FOR_CHINESE]
 
 
 
