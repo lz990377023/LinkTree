@@ -42,6 +42,9 @@
 // tabbar的高度
 #define LT_TABBAR_HEIGHT (49+[LTUIHelper lt_safeAreaInsetsForIPhoneX].bottom)
 
+// 颜色
+#define LT_HEX_COLOR(hexString) [UIColor lt_colorWithHexString:hexString]
+
 
 
 // 获取一个像素
