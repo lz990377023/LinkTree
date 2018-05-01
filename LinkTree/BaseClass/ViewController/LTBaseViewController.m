@@ -95,7 +95,7 @@ Navigation:{
     //使黑色线消失
     self.navigationController.navigationBar.shadowImage = [[UIImage alloc] init];
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-}self.backTypeAndAnimated(LTBackTypePopVC,YES).And.addLeftItems(self.creatTextBarItem(@"common_navigation_back_black"));
+}
 }
 
 #pragma mark ----------创建NavigationBarItem------------
