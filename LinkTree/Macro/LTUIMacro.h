@@ -9,7 +9,6 @@
 #ifndef LTUIMacro_h
 #define LTUIMacro_h
 
-
 // 是否Retina
 #define IS_RETINASCREEN ([[UIScreen mainScreen] scale] >= 2.0)
 
@@ -32,10 +31,18 @@
 #define LT_DEVICE_HEIGHT (IS_LANDSCAPE ? [[UIScreen mainScreen] bounds].size.width : [[UIScreen mainScreen] bounds].size.height)
 
 // 状态栏高度
-#define LT_StatusBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height)
+#define LT_STATUSBAR_HEIGHT ([[UIApplication sharedApplication] statusBarFrame].size.height)
 
-// navigationBar相关frame
-#define LT_NavigationBarHeight (IS_LANDSCAPE ? PreferredVarForDevices(44, 32, 32, 32) : 44)
+// navigationBar相关的高度
+#define LT_NAVIGATIONBAR_Height (IS_LANDSCAPE ? PreferredVarForDevices(44, 32, 32, 32) : 44)
+
+// navigationBar+status的高度
+#define LT_STATUS_NAVIGATIONBAR_HEIGHT (LT_STATUSBAR_HEIGHT+LT_NAVIGATIONBAR_Height)
+
+// tabbar的高度
+#define LT_TABBAR_HEIGHT (49+[LTUIHelper lt_safeAreaInsetsForIPhoneX].bottom)
+
+
 
 // 获取一个像素
 #define LT_PixelOne 1 / [[UIScreen mainScreen] scale]

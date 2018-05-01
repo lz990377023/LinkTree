@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7DFD04DE860B312041FF064E /* Pods_LinkTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */; };
+		F7267EF820982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF020982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m */; };
+		F7267EF920982C6C003F3CB3 /* LTTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF220982C6C003F3CB3 /* LTTabBarItemModel.m */; };
+		F7267EFA20982C6C003F3CB3 /* LTCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF420982C6C003F3CB3 /* LTCustomTabBar.m */; };
+		F7267EFB20982C6D003F3CB3 /* LTTabBarAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF520982C6C003F3CB3 /* LTTabBarAdapter.m */; };
 		F72DFD7B20961B8500E2FA3A /* NSDictionary+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD4820961B8500E2FA3A /* NSDictionary+LTExtension.m */; };
 		F72DFD7C20961B8500E2FA3A /* NSMutableDictionary+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD4920961B8500E2FA3A /* NSMutableDictionary+LTExtension.m */; };
 		F72DFD7D20961B8500E2FA3A /* NSData+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFD4E20961B8500E2FA3A /* NSData+LTExtension.m */; };
@@ -68,6 +72,14 @@
 		6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8374CD63E4F8D71AC2AB095A /* Pods-LinkTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.release.xcconfig"; sourceTree = "<group>"; };
 		CCAD5C58E68A893D836EB9F7 /* Pods-LinkTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.debug.xcconfig"; sourceTree = "<group>"; };
+		F7267EF020982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarItemBaseHelper.h.m; sourceTree = "<group>"; };
+		F7267EF120982C6C003F3CB3 /* LTCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCustomTabBar.h; sourceTree = "<group>"; };
+		F7267EF220982C6C003F3CB3 /* LTTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarItemModel.m; sourceTree = "<group>"; };
+		F7267EF320982C6C003F3CB3 /* LTTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarItemModel.h; sourceTree = "<group>"; };
+		F7267EF420982C6C003F3CB3 /* LTCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCustomTabBar.m; sourceTree = "<group>"; };
+		F7267EF520982C6C003F3CB3 /* LTTabBarAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarAdapter.m; sourceTree = "<group>"; };
+		F7267EF620982C6C003F3CB3 /* LTTabBarItemBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarItemBaseHelper.h; sourceTree = "<group>"; };
+		F7267EF720982C6C003F3CB3 /* LTTabBarAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarAdapter.h; sourceTree = "<group>"; };
 		F72DFD4720961B8500E2FA3A /* NSMutableDictionary+LTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LTExtension.h"; sourceTree = "<group>"; };
 		F72DFD4820961B8500E2FA3A /* NSDictionary+LTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LTExtension.m"; sourceTree = "<group>"; };
 		F72DFD4920961B8500E2FA3A /* NSMutableDictionary+LTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LTExtension.m"; sourceTree = "<group>"; };
@@ -189,6 +201,28 @@
 				6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7267EEE20980F79003F3CB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F7267EEF20982C5E003F3CB3 /* Tabber */ = {
+			isa = PBXGroup;
+			children = (
+				F7267EF120982C6C003F3CB3 /* LTCustomTabBar.h */,
+				F7267EF420982C6C003F3CB3 /* LTCustomTabBar.m */,
+				F7267EF720982C6C003F3CB3 /* LTTabBarAdapter.h */,
+				F7267EF520982C6C003F3CB3 /* LTTabBarAdapter.m */,
+				F7267EF620982C6C003F3CB3 /* LTTabBarItemBaseHelper.h */,
+				F7267EF020982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m */,
+				F7267EF320982C6C003F3CB3 /* LTTabBarItemModel.h */,
+				F7267EF220982C6C003F3CB3 /* LTTabBarItemModel.m */,
+			);
+			path = Tabber;
 			sourceTree = "<group>";
 		};
 		F72DFD4520961B8500E2FA3A /* Foundation */ = {
@@ -345,6 +379,7 @@
 		F72DFD8F2096AA2100E2FA3A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F7267EEF20982C5E003F3CB3 /* Tabber */,
 				F72DFDA42096AB4A00E2FA3A /* LTBaseViewController.h */,
 				F72DFDA52096AB4A00E2FA3A /* LTBaseViewController.m */,
 				F72DFDA72096AB6F00E2FA3A /* LTBaseNavigationController.h */,
@@ -386,6 +421,7 @@
 		F72DFDB12096B53400E2FA3A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				F7267EEE20980F79003F3CB3 /* ViewController */,
 				F72DFDB22096B54E00E2FA3A /* View */,
 			);
 			path = Custom;
@@ -680,6 +716,8 @@
 				F72DFDA32096AAF500E2FA3A /* LTBaseScrollView.m in Sources */,
 				F72DFD8220961B8500E2FA3A /* NSMutableString+LTExtension.m in Sources */,
 				F72DFD942096AA5800E2FA3A /* LTBaseModel.m in Sources */,
+				F7267EFA20982C6C003F3CB3 /* LTCustomTabBar.m in Sources */,
+				F7267EF820982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m in Sources */,
 				F72DFDA02096AAE100E2FA3A /* LTBaseCollectionView.m in Sources */,
 				F7F5EE9F2062935900098DCC /* ViewController.m in Sources */,
 				F72DFD8020961B8500E2FA3A /* NSMutableAttributedString+LTExtension.m in Sources */,
@@ -690,9 +728,11 @@
 				F72DFD8A20961B8500E2FA3A /* LTNetworkClient.m in Sources */,
 				F72DFD7E20961B8500E2FA3A /* NSMutableData+LTExtension.m in Sources */,
 				F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */,
+				F7267EF920982C6C003F3CB3 /* LTTabBarItemModel.m in Sources */,
 				F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */,
 				F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */,
 				F72DFD8520961B8500E2FA3A /* NSObject+LTExtension.m in Sources */,
+				F7267EFB20982C6D003F3CB3 /* LTTabBarAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

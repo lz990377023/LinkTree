@@ -91,24 +91,28 @@ static NSInteger is35InchScreen = -1;
     if (![self lt_is58InchScreen]) {
         return UIEdgeInsetsZero;
     }
-    
-    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    
-    switch (orientation) {
-        case UIInterfaceOrientationPortrait:
-            return UIEdgeInsetsMake(44, 0, 34, 0);
-            
-        case UIInterfaceOrientationPortraitUpsideDown:
-            return UIEdgeInsetsMake(34, 0, 44, 0);
-            
-        case UIInterfaceOrientationLandscapeLeft:
-        case UIInterfaceOrientationLandscapeRight:
-            return UIEdgeInsetsMake(0, 44, 21, 44);
-            
-        case UIInterfaceOrientationUnknown:
-        default:
-            return UIEdgeInsetsMake(44, 0, 34, 0);
+    if (@available(iOS 11.0, *)){
+        return [UIApplication sharedApplication].keyWindow.safeAreaInsets;
     }
+    return UIEdgeInsetsZero;
+    
+//    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+//
+//    switch (orientation) {
+//        case UIInterfaceOrientationPortrait:
+//            return UIEdgeInsetsMake(44, 0, 34, 0);
+//
+//        case UIInterfaceOrientationPortraitUpsideDown:
+//            return UIEdgeInsetsMake(34, 0, 44, 0);
+//
+//        case UIInterfaceOrientationLandscapeLeft:
+//        case UIInterfaceOrientationLandscapeRight:
+//            return UIEdgeInsetsMake(0, 44, 21, 44);
+//
+//        case UIInterfaceOrientationUnknown:
+//        default:
+//            return UIEdgeInsetsMake(44, 0, 34, 0);
+//    }
 }
 
 + (void)lt_redirectAudioRouteWithSpeaker:(BOOL)speaker temporary:(BOOL)temporary {
