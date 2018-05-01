@@ -43,8 +43,12 @@
 		F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDA82096AB6F00E2FA3A /* LTBaseNavigationController.m */; };
 		F72DFDAC2096AB9200E2FA3A /* LTBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAB2096AB9200E2FA3A /* LTBaseTabBarController.m */; };
 		F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */; };
+<<<<<<< HEAD
 		F776B1332098B75F0070A027 /* MOCALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F776B1312098B75F0070A027 /* MOCALoginVC.m */; };
 		F776B1342098B75F0070A027 /* MOCALoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F776B1322098B75F0070A027 /* MOCALoginVC.xib */; };
+=======
+		F776B1372098C6EA0070A027 /* LTGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F776B1362098C6EA0070A027 /* LTGradientButton.m */; };
+>>>>>>> 878853b44aca7b58b4174aeade92132c577bd1a4
 		F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9B2062935900098DCC /* AppDelegate.m */; };
 		F7F5EE9F2062935900098DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9E2062935900098DCC /* ViewController.m */; };
 		F7F5EEA22062935900098DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5EEA02062935900098DCC /* Main.storyboard */; };
@@ -156,9 +160,14 @@
 		F72DFDAD2096ACB400E2FA3A /* LTBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseView.h; sourceTree = "<group>"; };
 		F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseView.m; sourceTree = "<group>"; };
 		F72DFDB32096B79000E2FA3A /* LinkTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkTree.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		F776B1302098B75F0070A027 /* MOCALoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCALoginVC.h; sourceTree = "<group>"; };
 		F776B1312098B75F0070A027 /* MOCALoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCALoginVC.m; sourceTree = "<group>"; };
 		F776B1322098B75F0070A027 /* MOCALoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MOCALoginVC.xib; sourceTree = "<group>"; };
+=======
+		F776B1352098C6EA0070A027 /* LTGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTGradientButton.h; sourceTree = "<group>"; };
+		F776B1362098C6EA0070A027 /* LTGradientButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTGradientButton.m; sourceTree = "<group>"; };
+>>>>>>> 878853b44aca7b58b4174aeade92132c577bd1a4
 		F7F5EE972062935900098DCC /* LinkTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F5EE9A2062935900098DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F5EE9B2062935900098DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -521,6 +530,8 @@
 		F72DFDB22096B54E00E2FA3A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F776B1352098C6EA0070A027 /* LTGradientButton.h */,
+				F776B1362098C6EA0070A027 /* LTGradientButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -831,6 +842,7 @@
 				F7267EF920982C6C003F3CB3 /* LTTabBarItemModel.m in Sources */,
 				F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */,
 				F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */,
+				F776B1372098C6EA0070A027 /* LTGradientButton.m in Sources */,
 				F72DFD8520961B8500E2FA3A /* NSObject+LTExtension.m in Sources */,
 				F7267EFB20982C6D003F3CB3 /* LTTabBarAdapter.m in Sources */,
 			);
