@@ -11,6 +11,7 @@
 @interface MOCALoginVC ()
 @property (weak, nonatomic) IBOutlet UITextField *accountTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (weak, nonatomic) IBOutlet UIView *backgView;
 
 @end
 
@@ -18,9 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    _backgView.layer.cornerRadius = 8;
+    _backgView.layer.masksToBounds = YES;
     // Do any additional setup after loading the view from its nib.
 }
+
+
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

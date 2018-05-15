@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MOCALoginVC">
             <connections>
                 <outlet property="accountTextField" destination="rwX-es-W4O" id="ABL-Js-lWB"/>
+                <outlet property="backgView" destination="Uai-S6-O7Y" id="gjJ-4j-Ay3"/>
                 <outlet property="passwordTextField" destination="3rb-n5-C9I" id="PAD-mZ-Zco"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
