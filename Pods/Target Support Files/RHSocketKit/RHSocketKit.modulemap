@@ -1,0 +1,6 @@
+framework module RHSocketKit {
+  umbrella header "RHSocketKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

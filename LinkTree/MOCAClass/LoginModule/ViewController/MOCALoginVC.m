@@ -7,8 +7,9 @@
 //
 
 #import "MOCALoginVC.h"
-
-@interface MOCALoginVC ()
+#import <RHSocketKit/RHSocketConnectParam.h>
+#import <RHSocketKit/RHSocketChannel.h>
+@interface MOCALoginVC ()<RHSocketConnectionDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *accountTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UIView *backgView;
@@ -21,8 +22,26 @@
     [super viewDidLoad];
     _backgView.layer.cornerRadius = 8;
     _backgView.layer.masksToBounds = YES;
+    [self connetScoket];
     // Do any additional setup after loading the view from its nib.
 }
+
+
+- (void)connetScoket{
+    RHSocketConnectParam *params = [[RHSocketConnectParam alloc]init];
+    params.host = @"127.0.0.1";
+    params.port = 20162;
+    params.heartbeatInterval = 5;
+    
+    RHSocketChannel *channel = [[RHSocketChannel alloc]initWithConnectParam:params];
+    [channel openConnection];
+    
+}
+
+- (void)writeData:(NSData *)data timeout:(NSTimeInterval)timeout tag:(long)tag{
+    NSLog(@"%@",data);
+}
+
 
 
 

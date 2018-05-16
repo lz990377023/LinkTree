@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29FEDBBF5E538F8D537E1BC20D63BAAE"
+               BlueprintIdentifier = "2CD08476F01EB7B33982D490A27B97C1"
                BuildableName = "Pods_LinkTree.framework"
                BlueprintName = "Pods-LinkTree"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "29FEDBBF5E538F8D537E1BC20D63BAAE"
+            BlueprintIdentifier = "2CD08476F01EB7B33982D490A27B97C1"
             BuildableName = "Pods_LinkTree.framework"
             BlueprintName = "Pods-LinkTree"
             ReferencedContainer = "container:Pods.xcodeproj">
