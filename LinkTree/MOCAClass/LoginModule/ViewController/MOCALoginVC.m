@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *accountTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UIView *backgView;
-
+@property (nonatomic ,strong)RHSocketChannel *channel;
 @end
 
 @implementation MOCALoginVC
@@ -29,25 +29,26 @@
 
 - (void)connetScoket{
     RHSocketConnectParam *params = [[RHSocketConnectParam alloc]init];
-    params.host = @"127.0.0.1";
-    params.port = 20162;
+    params.host = @"192.168.0.103";
+    params.port = 8888;
     params.heartbeatInterval = 5;
     
-    RHSocketChannel *channel = [[RHSocketChannel alloc]initWithConnectParam:params];
-    [channel openConnection];
+    _channel = [[RHSocketChannel alloc]initWithConnectParam:params];
+    [_channel openConnection];
+   
+    @"https://juejin.im/post/5a77cb456fb9a0634e6c6c14"
+}
+
+
+
+- (void)didRead:(id<RHSocketConnectionDelegate>)con withData:(NSData *)data tag:(long)tag{
+    NSLog(@"%@",[[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding]);
     
 }
-
-- (void)writeData:(NSData *)data timeout:(NSTimeInterval)timeout tag:(long)tag{
-    NSLog(@"%@",data);
-}
-
-
-
-
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.view endEditing:YES];
+     [_channel writeData:[@"11111" dataUsingEncoding:NSUTF8StringEncoding] timeout:5 tag:1];
 }
 
 - (void)didReceiveMemoryWarning {
