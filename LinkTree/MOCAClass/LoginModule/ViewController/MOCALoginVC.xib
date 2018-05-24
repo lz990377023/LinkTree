@@ -28,6 +28,15 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uai-S6-O7Y">
                     <rect key="frame" x="30" y="153.5" width="305" height="280"/>
                     <subviews>
+                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bd7-P3-Vw7">
+                            <rect key="frame" x="0.0" y="0.0" width="305" height="280"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="NhI-Ya-26r">
+                                <rect key="frame" x="0.0" y="0.0" width="305" height="280"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <color key="backgroundColor" white="1" alpha="0.80492829623287676" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <blurEffect style="light"/>
+                        </visualEffectView>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rwX-es-W4O">
                             <rect key="frame" x="15" y="41" width="275" height="40"/>
                             <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,8 +94,8 @@
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="bd7-P3-Vw7" firstAttribute="top" secondItem="Uai-S6-O7Y" secondAttribute="top" id="655-CJ-xsG"/>
                         <constraint firstItem="3Ur-Ce-58c" firstAttribute="centerX" secondItem="Uai-S6-O7Y" secondAttribute="centerX" id="9mv-Ff-bcd"/>
                         <constraint firstItem="rwX-es-W4O" firstAttribute="top" secondItem="wuM-6W-hQE" secondAttribute="bottom" constant="8" id="Ad4-F6-pVr"/>
                         <constraint firstAttribute="trailing" secondItem="3rb-n5-C9I" secondAttribute="trailing" constant="15" id="BVg-x8-elt"/>
@@ -94,6 +103,8 @@
                         <constraint firstAttribute="height" constant="280" id="HAP-vV-wYn"/>
                         <constraint firstItem="3rb-n5-C9I" firstAttribute="top" secondItem="a7d-Kd-mbX" secondAttribute="bottom" constant="8" id="LI9-yg-8XM"/>
                         <constraint firstItem="rwX-es-W4O" firstAttribute="leading" secondItem="Uai-S6-O7Y" secondAttribute="leading" constant="15" id="Yuz-ex-g6l"/>
+                        <constraint firstAttribute="trailing" secondItem="bd7-P3-Vw7" secondAttribute="trailing" id="Yyz-DF-Crx"/>
+                        <constraint firstAttribute="bottom" secondItem="bd7-P3-Vw7" secondAttribute="bottom" id="Zsf-E4-kxZ"/>
                         <constraint firstAttribute="trailing" secondItem="rwX-es-W4O" secondAttribute="trailing" constant="15" id="a47-0t-cab"/>
                         <constraint firstItem="wuM-6W-hQE" firstAttribute="top" secondItem="Uai-S6-O7Y" secondAttribute="top" constant="15" id="chi-OI-zAC"/>
                         <constraint firstItem="MB1-Yi-x43" firstAttribute="leading" secondItem="Uai-S6-O7Y" secondAttribute="leading" constant="15" id="dKc-e1-hlc"/>
@@ -102,6 +113,7 @@
                         <constraint firstItem="a7d-Kd-mbX" firstAttribute="leading" secondItem="Uai-S6-O7Y" secondAttribute="leading" constant="15" id="oiu-q9-5Rn"/>
                         <constraint firstItem="a7d-Kd-mbX" firstAttribute="top" secondItem="rwX-es-W4O" secondAttribute="bottom" constant="15" id="sTg-c4-Q0S"/>
                         <constraint firstItem="MB1-Yi-x43" firstAttribute="top" secondItem="3rb-n5-C9I" secondAttribute="bottom" constant="20" id="udP-zT-teI"/>
+                        <constraint firstItem="bd7-P3-Vw7" firstAttribute="leading" secondItem="Uai-S6-O7Y" secondAttribute="leading" id="vRM-PT-PIK"/>
                         <constraint firstItem="wuM-6W-hQE" firstAttribute="leading" secondItem="Uai-S6-O7Y" secondAttribute="leading" constant="15" id="zr5-G4-WNb"/>
                     </constraints>
                 </view>

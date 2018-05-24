@@ -43,6 +43,7 @@
 		F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDA82096AB6F00E2FA3A /* LTBaseNavigationController.m */; };
 		F72DFDAC2096AB9200E2FA3A /* LTBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAB2096AB9200E2FA3A /* LTBaseTabBarController.m */; };
 		F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */; };
+		F72E787B20B71BD300F5DD8F /* MOCAEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E787A20B71BD300F5DD8F /* MOCAEffectView.m */; };
 		F776B1332098B75F0070A027 /* MOCALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F776B1312098B75F0070A027 /* MOCALoginVC.m */; };
 		F776B1342098B75F0070A027 /* MOCALoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F776B1322098B75F0070A027 /* MOCALoginVC.xib */; };
 		F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9B2062935900098DCC /* AppDelegate.m */; };
@@ -156,6 +157,19 @@
 		F72DFDAD2096ACB400E2FA3A /* LTBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseView.h; sourceTree = "<group>"; };
 		F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseView.m; sourceTree = "<group>"; };
 		F72DFDB32096B79000E2FA3A /* LinkTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkTree.h; sourceTree = "<group>"; };
+		F72E786320B71A3400F5DD8F /* MOCAPublicHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCAPublicHeader.pch; sourceTree = "<group>"; };
+		F72E786420B71A4900F5DD8F /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E786620B71A4900F5DD8F /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E786820B71A4900F5DD8F /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E786A20B71A4900F5DD8F /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E786C20B71A4900F5DD8F /* RHSocketKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RHSocketKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E786E20B71A4900F5DD8F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E787020B71A4900F5DD8F /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E787220B71A4900F5DD8F /* YYImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E787420B71A4900F5DD8F /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E787620B71A4900F5DD8F /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E787920B71BD300F5DD8F /* MOCAEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCAEffectView.h; sourceTree = "<group>"; };
+		F72E787A20B71BD300F5DD8F /* MOCAEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCAEffectView.m; sourceTree = "<group>"; };
 		F776B1302098B75F0070A027 /* MOCALoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCALoginVC.h; sourceTree = "<group>"; };
 		F776B1312098B75F0070A027 /* MOCALoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCALoginVC.m; sourceTree = "<group>"; };
 		F776B1322098B75F0070A027 /* MOCALoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MOCALoginVC.xib; sourceTree = "<group>"; };
@@ -215,6 +229,16 @@
 		B12495BEDA4E18EE17F8C353 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F72E786420B71A4900F5DD8F /* AFNetworking.framework */,
+				F72E786620B71A4900F5DD8F /* CocoaAsyncSocket.framework */,
+				F72E786820B71A4900F5DD8F /* FMDB.framework */,
+				F72E786A20B71A4900F5DD8F /* Masonry.framework */,
+				F72E786C20B71A4900F5DD8F /* RHSocketKit.framework */,
+				F72E786E20B71A4900F5DD8F /* SDWebImage.framework */,
+				F72E787020B71A4900F5DD8F /* SVProgressHUD.framework */,
+				F72E787220B71A4900F5DD8F /* YYImage.framework */,
+				F72E787420B71A4900F5DD8F /* YYModel.framework */,
+				F72E787620B71A4900F5DD8F /* YYText.framework */,
 				6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */,
 			);
 			name = Frameworks;
@@ -247,6 +271,7 @@
 			children = (
 				F7267F1720987AF9003F3CB3 /* LoginModule */,
 				F7267F1C20987AF9003F3CB3 /* TabbarModule */,
+				F72E786320B71A3400F5DD8F /* MOCAPublicHeader.pch */,
 			);
 			path = MOCAClass;
 			sourceTree = "<group>";
@@ -512,17 +537,19 @@
 		F72DFDB12096B53400E2FA3A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				F72E787820B71BBA00F5DD8F /* view */,
 				F7267EEE20980F79003F3CB3 /* ViewController */,
-				F72DFDB22096B54E00E2FA3A /* View */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
 		};
-		F72DFDB22096B54E00E2FA3A /* View */ = {
+		F72E787820B71BBA00F5DD8F /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F72E787920B71BD300F5DD8F /* MOCAEffectView.h */,
+				F72E787A20B71BD300F5DD8F /* MOCAEffectView.m */,
 			);
-			path = View;
+			path = view;
 			sourceTree = "<group>";
 		};
 		F7F5EE8E2062935900098DCC = {
@@ -771,8 +798,10 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/RHSocketKit/RHSocketKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
@@ -782,8 +811,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RHSocketKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
@@ -833,6 +864,7 @@
 				F72DFD7E20961B8500E2FA3A /* NSMutableData+LTExtension.m in Sources */,
 				F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */,
 				F7267EF920982C6C003F3CB3 /* LTTabBarItemModel.m in Sources */,
+				F72E787B20B71BD300F5DD8F /* MOCAEffectView.m in Sources */,
 				F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */,
 				F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */,
 				F72DFD8520961B8500E2FA3A /* NSObject+LTExtension.m in Sources */,
@@ -1028,6 +1060,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VLGKW454T;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LinkTree/MOCAClass/MOCAPublicHeader.pch;
 				INFOPLIST_FILE = LinkTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lizhan.LinkTree;
@@ -1043,6 +1078,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VLGKW454T;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LinkTree/MOCAClass/MOCAPublicHeader.pch;
 				INFOPLIST_FILE = LinkTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lizhan.LinkTree;

@@ -24,6 +24,7 @@ PODS:
   - FMDB (2.7.2):
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
+  - Masonry (1.1.0)
   - RHSocketKit (2.2.4):
     - RHSocketKit/Core (= 2.2.4)
   - RHSocketKit/Core (2.2.4):
@@ -31,6 +32,7 @@ PODS:
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
+  - SVProgressHUD (2.2.5)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -40,8 +42,10 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.1)
   - FMDB
+  - Masonry
   - RHSocketKit
   - SDWebImage (~> 4.0)
+  - SVProgressHUD
   - YYImage
   - YYModel
   - YYText
@@ -50,12 +54,14 @@ SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   RHSocketKit: 3cdaabb6cb281139ea1e059f75fd5560326180f2
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 58be80dd396f75626bed3afa96b3718aaee2a33f
+PODFILE CHECKSUM: 5d2bf7000788b53d619f6fd73d679215aa373bd7
 
 COCOAPODS: 1.3.1
