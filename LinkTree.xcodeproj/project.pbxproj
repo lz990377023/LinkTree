@@ -49,6 +49,9 @@
 		F72E787B20B71BD300F5DD8F /* MOCAEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E787A20B71BD300F5DD8F /* MOCAEffectView.m */; };
 		F776B1332098B75F0070A027 /* MOCALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F776B1312098B75F0070A027 /* MOCALoginVC.m */; };
 		F776B1342098B75F0070A027 /* MOCALoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F776B1322098B75F0070A027 /* MOCALoginVC.xib */; };
+		F794933620BDABA400C5EB16 /* MOCARequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F794933520BDABA400C5EB16 /* MOCARequestManage.m */; };
+		F794933920BDAC9D00C5EB16 /* MOCALoginRequesManage.m in Sources */ = {isa = PBXBuildFile; fileRef = F794933820BDAC9D00C5EB16 /* MOCALoginRequesManage.m */; };
+		F794933C20BDADE200C5EB16 /* MOCAUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F794933B20BDADE200C5EB16 /* MOCAUserInfoModel.m */; };
 		F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9B2062935900098DCC /* AppDelegate.m */; };
 		F7F5EE9F2062935900098DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5EE9E2062935900098DCC /* ViewController.m */; };
 		F7F5EEA22062935900098DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5EEA02062935900098DCC /* Main.storyboard */; };
@@ -182,6 +185,12 @@
 		F776B1302098B75F0070A027 /* MOCALoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCALoginVC.h; sourceTree = "<group>"; };
 		F776B1312098B75F0070A027 /* MOCALoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCALoginVC.m; sourceTree = "<group>"; };
 		F776B1322098B75F0070A027 /* MOCALoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MOCALoginVC.xib; sourceTree = "<group>"; };
+		F794933420BDABA400C5EB16 /* MOCARequestManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCARequestManage.h; sourceTree = "<group>"; };
+		F794933520BDABA400C5EB16 /* MOCARequestManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCARequestManage.m; sourceTree = "<group>"; };
+		F794933720BDAC9D00C5EB16 /* MOCALoginRequesManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCALoginRequesManage.h; sourceTree = "<group>"; };
+		F794933820BDAC9D00C5EB16 /* MOCALoginRequesManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCALoginRequesManage.m; sourceTree = "<group>"; };
+		F794933A20BDADE200C5EB16 /* MOCAUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCAUserInfoModel.h; sourceTree = "<group>"; };
+		F794933B20BDADE200C5EB16 /* MOCAUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCAUserInfoModel.m; sourceTree = "<group>"; };
 		F7F5EE972062935900098DCC /* LinkTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F5EE9A2062935900098DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F5EE9B2062935900098DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -310,6 +319,8 @@
 		F7267F1820987AF9003F3CB3 /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				F794933720BDAC9D00C5EB16 /* MOCALoginRequesManage.h */,
+				F794933820BDAC9D00C5EB16 /* MOCALoginRequesManage.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -317,6 +328,8 @@
 		F7267F1920987AF9003F3CB3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F794933A20BDADE200C5EB16 /* MOCAUserInfoModel.h */,
+				F794933B20BDADE200C5EB16 /* MOCAUserInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -562,6 +575,8 @@
 				F72E0F9120B86BAA00976C31 /* MOCANetworkConfig.m */,
 				F72E0F9620B871B300976C31 /* MOCANetworkEnum.h */,
 				F72E0F9720B871B300976C31 /* MOCANetworkEnum.m */,
+				F794933420BDABA400C5EB16 /* MOCARequestManage.h */,
+				F794933520BDABA400C5EB16 /* MOCARequestManage.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -868,6 +883,7 @@
 				F72E0F9820B871B300976C31 /* MOCANetworkEnum.m in Sources */,
 				F72DFDA62096AB4A00E2FA3A /* LTBaseViewController.m in Sources */,
 				F72DFD7C20961B8500E2FA3A /* NSMutableDictionary+LTExtension.m in Sources */,
+				F794933C20BDADE200C5EB16 /* MOCAUserInfoModel.m in Sources */,
 				F72DFD8320961B8500E2FA3A /* NSArray+LTExtension.m in Sources */,
 				F72DFD8B20961B8500E2FA3A /* LTMultiRequestClient.m in Sources */,
 				F72DFD8820961B8500E2FA3A /* LTUIHelper.m in Sources */,
@@ -875,7 +891,9 @@
 				F71F509620B936A50046511D /* UIDevice+LTExtension.m in Sources */,
 				F72DFDA32096AAF500E2FA3A /* LTBaseScrollView.m in Sources */,
 				F72DFD8220961B8500E2FA3A /* NSMutableString+LTExtension.m in Sources */,
+				F794933920BDAC9D00C5EB16 /* MOCALoginRequesManage.m in Sources */,
 				F72DFD942096AA5800E2FA3A /* LTBaseModel.m in Sources */,
+				F794933620BDABA400C5EB16 /* MOCARequestManage.m in Sources */,
 				F7267EFA20982C6C003F3CB3 /* LTCustomTabBar.m in Sources */,
 				F7267EF820982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m in Sources */,
 				F72DFDA02096AAE100E2FA3A /* LTBaseCollectionView.m in Sources */,
