@@ -62,6 +62,7 @@
 // 如果要通过宏直接设置语言 则将APP_LANGUAGE_XXXXX的宏替代PLIST_DICT_GET_OBJECT(LANGUAGE_CORE_KEY)
 #define LTLocalForKey(key) [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:LT_APP_LANGUAGE_FOR_CHINESE]
 
+#define LT_PUBLIC_PKG @"mocajiaoyou"
 
 
 

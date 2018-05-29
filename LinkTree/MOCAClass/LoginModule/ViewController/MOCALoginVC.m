@@ -7,14 +7,10 @@
 //
 
 #import "MOCALoginVC.h"
-#import <RHSocketKit/RHSocketConnectParam.h>
-#import <RHSocketKit/RHSocketChannel.h>
-
-@interface MOCALoginVC ()<RHSocketConnectionDelegate>
+@interface MOCALoginVC ()
 @property (weak, nonatomic) IBOutlet UITextField *accountTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UIView *backgView;
-@property (nonatomic ,strong)RHSocketChannel *channel;
 @end
 
 @implementation MOCALoginVC

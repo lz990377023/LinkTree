@@ -1364,7 +1364,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         // This will make everything more readable. See the following for details:
         // https://www.omnigroup.com/developer/how-to-make-text-in-a-uivisualeffectview-readable-on-any-background
         
-        self.hudView.backgroundColor = [self.backgroundColorForStyle colorWithAlphaComponent:0.6f];
+        self.hudView.backgroundColor = [self.backgroundColorForStyle colorWithAlphaComponent:0.0f];
     } else {
         self.hudView.backgroundColor =  self.backgroundColorForStyle;
     }

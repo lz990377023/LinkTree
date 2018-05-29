@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7DFD04DE860B312041FF064E /* Pods_LinkTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */; };
+		F71F509620B936A50046511D /* UIDevice+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F509520B936A50046511D /* UIDevice+LTExtension.m */; };
 		F7267EF820982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF020982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m */; };
 		F7267EF920982C6C003F3CB3 /* LTTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF220982C6C003F3CB3 /* LTTabBarItemModel.m */; };
 		F7267EFA20982C6C003F3CB3 /* LTCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7267EF420982C6C003F3CB3 /* LTCustomTabBar.m */; };
@@ -43,6 +44,8 @@
 		F72DFDA92096AB6F00E2FA3A /* LTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDA82096AB6F00E2FA3A /* LTBaseNavigationController.m */; };
 		F72DFDAC2096AB9200E2FA3A /* LTBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAB2096AB9200E2FA3A /* LTBaseTabBarController.m */; };
 		F72DFDAF2096ACB400E2FA3A /* LTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */; };
+		F72E0F9220B86BAA00976C31 /* MOCANetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E0F9120B86BAA00976C31 /* MOCANetworkConfig.m */; };
+		F72E0F9820B871B300976C31 /* MOCANetworkEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E0F9720B871B300976C31 /* MOCANetworkEnum.m */; };
 		F72E787B20B71BD300F5DD8F /* MOCAEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E787A20B71BD300F5DD8F /* MOCAEffectView.m */; };
 		F776B1332098B75F0070A027 /* MOCALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F776B1312098B75F0070A027 /* MOCALoginVC.m */; };
 		F776B1342098B75F0070A027 /* MOCALoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F776B1322098B75F0070A027 /* MOCALoginVC.xib */; };
@@ -77,6 +80,8 @@
 		6F9BA698EE050BD36F6C30D7 /* Pods_LinkTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8374CD63E4F8D71AC2AB095A /* Pods-LinkTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.release.xcconfig"; sourceTree = "<group>"; };
 		CCAD5C58E68A893D836EB9F7 /* Pods-LinkTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkTree/Pods-LinkTree.debug.xcconfig"; sourceTree = "<group>"; };
+		F71F509420B936A50046511D /* UIDevice+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LTExtension.h"; sourceTree = "<group>"; };
+		F71F509520B936A50046511D /* UIDevice+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LTExtension.m"; sourceTree = "<group>"; };
 		F7267EF020982C6C003F3CB3 /* LTTabBarItemBaseHelper.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarItemBaseHelper.h.m; sourceTree = "<group>"; };
 		F7267EF120982C6C003F3CB3 /* LTCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCustomTabBar.h; sourceTree = "<group>"; };
 		F7267EF220982C6C003F3CB3 /* LTTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarItemModel.m; sourceTree = "<group>"; };
@@ -157,6 +162,10 @@
 		F72DFDAD2096ACB400E2FA3A /* LTBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBaseView.h; sourceTree = "<group>"; };
 		F72DFDAE2096ACB400E2FA3A /* LTBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBaseView.m; sourceTree = "<group>"; };
 		F72DFDB32096B79000E2FA3A /* LinkTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkTree.h; sourceTree = "<group>"; };
+		F72E0F9020B86BAA00976C31 /* MOCANetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCANetworkConfig.h; sourceTree = "<group>"; };
+		F72E0F9120B86BAA00976C31 /* MOCANetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCANetworkConfig.m; sourceTree = "<group>"; };
+		F72E0F9620B871B300976C31 /* MOCANetworkEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCANetworkEnum.h; sourceTree = "<group>"; };
+		F72E0F9720B871B300976C31 /* MOCANetworkEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOCANetworkEnum.m; sourceTree = "<group>"; };
 		F72E786320B71A3400F5DD8F /* MOCAPublicHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOCAPublicHeader.pch; sourceTree = "<group>"; };
 		F72E786420B71A4900F5DD8F /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72E786620B71A4900F5DD8F /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +253,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F71F509320B936350046511D /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				F71F509420B936A50046511D /* UIDevice+LTExtension.h */,
+				F71F509520B936A50046511D /* UIDevice+LTExtension.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
 		F7267EEE20980F79003F3CB3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +287,7 @@
 		F7267F1620987AF9003F3CB3 /* MOCAClass */ = {
 			isa = PBXGroup;
 			children = (
+				F72E0F8F20B86B4800976C31 /* Network */,
 				F7267F1720987AF9003F3CB3 /* LoginModule */,
 				F7267F1C20987AF9003F3CB3 /* TabbarModule */,
 				F72E786320B71A3400F5DD8F /* MOCAPublicHeader.pch */,
@@ -346,7 +365,6 @@
 			children = (
 				F72DFD4620961B8500E2FA3A /* NSDictionary */,
 				F72DFD4B20961B8500E2FA3A /* NSData */,
-				F72DFD5020961B8500E2FA3A /* 未命名文件夹 */,
 				F72DFD5120961B8500E2FA3A /* NSString */,
 				F72DFD5A20961B8500E2FA3A /* NSArray */,
 				F72DFD5F20961B8500E2FA3A /* NSObject */,
@@ -375,13 +393,6 @@
 				F72DFD4F20961B8500E2FA3A /* NSMutableData+LTExtension.m */,
 			);
 			path = NSData;
-			sourceTree = "<group>";
-		};
-		F72DFD5020961B8500E2FA3A /* 未命名文件夹 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
 		F72DFD5120961B8500E2FA3A /* NSString */ = {
@@ -440,6 +451,7 @@
 		F72DFD6820961B8500E2FA3A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F71F509320B936350046511D /* UIDevice */,
 				F72DFD6920961B8500E2FA3A /* UIColor */,
 				F72DFD6C20961B8500E2FA3A /* LTUIHelper.m */,
 				F72DFD6D20961B8500E2FA3A /* LTUIHelper.h */,
@@ -541,6 +553,17 @@
 				F7267EEE20980F79003F3CB3 /* ViewController */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		F72E0F8F20B86B4800976C31 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F72E0F9020B86BAA00976C31 /* MOCANetworkConfig.h */,
+				F72E0F9120B86BAA00976C31 /* MOCANetworkConfig.m */,
+				F72E0F9620B871B300976C31 /* MOCANetworkEnum.h */,
+				F72E0F9720B871B300976C31 /* MOCANetworkEnum.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		F72E787820B71BBA00F5DD8F /* view */ = {
@@ -842,12 +865,14 @@
 				F776B1332098B75F0070A027 /* MOCALoginVC.m in Sources */,
 				F72DFDAC2096AB9200E2FA3A /* LTBaseTabBarController.m in Sources */,
 				F72DFD8D20961B8500E2FA3A /* LTRequestError.m in Sources */,
+				F72E0F9820B871B300976C31 /* MOCANetworkEnum.m in Sources */,
 				F72DFDA62096AB4A00E2FA3A /* LTBaseViewController.m in Sources */,
 				F72DFD7C20961B8500E2FA3A /* NSMutableDictionary+LTExtension.m in Sources */,
 				F72DFD8320961B8500E2FA3A /* NSArray+LTExtension.m in Sources */,
 				F72DFD8B20961B8500E2FA3A /* LTMultiRequestClient.m in Sources */,
 				F72DFD8820961B8500E2FA3A /* LTUIHelper.m in Sources */,
 				F72DFD9A2096AAA300E2FA3A /* LTBaseLabel.m in Sources */,
+				F71F509620B936A50046511D /* UIDevice+LTExtension.m in Sources */,
 				F72DFDA32096AAF500E2FA3A /* LTBaseScrollView.m in Sources */,
 				F72DFD8220961B8500E2FA3A /* NSMutableString+LTExtension.m in Sources */,
 				F72DFD942096AA5800E2FA3A /* LTBaseModel.m in Sources */,
@@ -860,6 +885,7 @@
 				F7F5EEAA2062935900098DCC /* main.m in Sources */,
 				F72DFD7D20961B8500E2FA3A /* NSData+LTExtension.m in Sources */,
 				F72DFD8920961B8500E2FA3A /* LTRequestClient.m in Sources */,
+				F72E0F9220B86BAA00976C31 /* MOCANetworkConfig.m in Sources */,
 				F72DFD8A20961B8500E2FA3A /* LTNetworkClient.m in Sources */,
 				F72DFD7E20961B8500E2FA3A /* NSMutableData+LTExtension.m in Sources */,
 				F7F5EE9C2062935900098DCC /* AppDelegate.m in Sources */,
